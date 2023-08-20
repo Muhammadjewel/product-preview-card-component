@@ -101,6 +101,14 @@ select:-webkit-autofill:focus {
   flex-grow: 1;
 }
 
+
+*:focus {
+  outline: 2px dashed var(--primary);
+  outline-offset: 3px;
+}
+
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
