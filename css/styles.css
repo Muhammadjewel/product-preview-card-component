@@ -1,3 +1,17 @@
+/* CUSTOM PROPS */
+:root {
+  /* Colors */
+  --body-bg: #f2eae2;
+  --text-color: #6c7289;
+  --text-color-dark: #1c232b;
+  --primary: #3d8168;
+
+  /* Fonts */
+  --body-font-family: "Montserrat", "Arial", sans-serif;
+  --heading-font-family: "Fraunces", "Times New Roman", serif;
+}
+
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -15,13 +29,14 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 0;
+  padding: 28px 16px;
   margin: 0;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #222;
+  font-family: var(--body-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  background-color: var(--body-bg);
+  color: var(--text-color);
 }
 
 img {
